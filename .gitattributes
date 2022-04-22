@@ -1,2 +1,7 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+conda install alignment
+y
+conda update alignment
+conda install mafft
+conda update mafft

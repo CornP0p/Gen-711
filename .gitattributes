@@ -5,3 +5,5 @@ y
 conda update alignment
 conda install mafft
 conda update mafft
+cat *.fast > allsequences.fasta
+mafft mafft --auto

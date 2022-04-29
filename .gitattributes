@@ -9,4 +9,9 @@ conda update mafft
 ## Group sequences for alignment
 cat *.fast > meta.fasta
 ## align sequences
-mafft --auto all.fasta > meta.ali
+mafft --auto meta.fasta > metadata.ali
+## Bootstrap tree build
+raxmlHPC-PTHREADS -T 8 -N 5 -s metadata.ali -m GTRGAMMA -p 12345 -n spike.tre
+raxmlHPC-PTHREADS -help
+sudo apt install raxml
+conda install -c bioconda raxml

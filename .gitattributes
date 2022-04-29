@@ -3,7 +3,10 @@
 conda install alignment
 y
 conda update alignment
+## Install MAFFT package
 conda install mafft
 conda update mafft
-cat *.fast > allsequences.fasta
-mafft mafft --auto
+## Group sequences for alignment
+cat *.fast > meta.fasta
+## align sequences
+mafft --auto all.fasta > meta.ali

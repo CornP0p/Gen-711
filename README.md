@@ -16,17 +16,17 @@ The first step I took was to set up the Conda environment to make installing the
 
 ## Findings
 
-![aliview.png](https://github.com/CornP0p/Gen-711/blob/main/Cringe/AliViewSpike.png) 
+![aliview.png](https://github.com/CornP0p/Gen-711/blob/main/SourceFiles/AliViewSpike.png) 
 Figure 1. Section of AliView demonstration deletion present in April Sequences
 
 When visualizing the aligned sequences with AliView there were multiple deletions present distinct to the months. There were also nucleotide changes that were within the same month as well as ones that were distinct to the individual months. There were some sections of ambiguous bases as well, and some of the sequences looked entirely identical. This was confirmed during the bootstrapping which noted that some sequences had no differences and would regularly be removed. 
 
-![branch.png](https://raw.githubusercontent.com/CornP0p/Gen-711/main/Cringe/SARS-CoV-2Spikebranch.png)
+![branch.png](https://github.com/CornP0p/Gen-711/blob/main/SourceFiles/SARS-CoV-2Spikebranch.png)
 Figure 2. Phylogenetic tree of surface glycoprotein with branch lengths shown
 
 The tree with branch lengths included shows a clear distinction between the two months with the sequences for April clustering in the top and the sequences from January spaced out on the bottom. The short branch lengths for the April sequences indicate little genetic change, as well as identical sequences, being present. The more spaced JAnusary branches indicate more genetic change and fewer identical sequences. I am unsure exactly why this is, but from my knowledge, there may have been a selective sweep that decreased the diversity of the virus between January and April.
 
-![noBranch.png](https://raw.githubusercontent.com/CornP0p/Gen-711/main/Cringe/SARS-CoV-2Spike.png)
+![noBranch.png](https://github.com/CornP0p/Gen-711/blob/main/SourceFiles/SARS-CoV-2Spike.png)
 Figure 3. Phylogenetic tree of surface glycoprotein with branch lengths ignored
 
 The tree with branch lengths ignored shows the sequences without the clustering. The Wuhan sequence is located near the right middle of the circular tree with its most closely related sequence being one collected on January 14th. It also shows that all the January sequences share a most recent common ancestor with a sequence collected on April 22nd which I cannot explain. It may be that there was not enough sequence information from the spike protein alone to make an accurate tree. 

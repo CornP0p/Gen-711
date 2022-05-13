@@ -7,11 +7,11 @@ conda update alignment
 conda install mafft
 conda update mafft
 ## Group sequences for alignment
-cat *.fast > meta.fasta
+cat *.fasta > metaseq.fasta
+## Get rid of | between accession and collection date
+sed -i 's/ |//g' metaseq.fasta
 ## align sequences
-mafft --auto meta.fasta > metadata.ali
+mafft --auto metaseq.fasta > metaseq.ali
 ## Bootstrap tree build
-raxmlHPC-PTHREADS -T 8 -N 5 -s metadata.ali -m GTRGAMMA -p 12345 -n spike.tre
-raxmlHPC-PTHREADS -help
-sudo apt install raxml
 conda install -c bioconda raxml
+raxmlHPC-PTHREADS -T 8 -N 20 -s metaseq.ali -m GTRGAMMA -p 12345 -n spikeseq.tre

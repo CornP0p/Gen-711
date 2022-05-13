@@ -12,6 +12,8 @@ The first step I took was to set up the conda environment to make insatlling the
 
 ## Findings
 
+
+![aliview.png](https://github.com/CornP0p/Gen-711/blob/main/Cringe/AliViewSpike.png) 
 When visualizing the aligned sequnces with AliView there were mutiple deletions present distinct to the months. There were also nucleotide changes that were within the same month as well as ones that were distict to the individual months. THere were some sections of ambigious bases as well, and some of the sequences looked enitely identical and this was confirmed during the bootstrapping which noted that there were some sequences that had no differences which would regularly be removed. 
 
 The tree with branch lenghths included shows a clear distiction between the two months with the sequences for april clustering in the top and the sequences from JAnuary spaced out on the bottom. The short branch lenghths for the April sequences indicate little genetic change as well as identical sequences being present. The more spaced JAnusary branches indicate more genetic change and less identical sequences. I am unsure exactly why this is, but from my knowledge there may have been a selective sweep that decreased the diversity of the virus between January and April.

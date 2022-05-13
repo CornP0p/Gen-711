@@ -8,6 +8,7 @@ SARS-CoV-2 was first discovered and sequenced in Wuhan in December 2019. Since t
 
 Sources:
 Duffy, Siobain. “Why Are RNA Virus Mutation Rates so Damn High?” PLoS Biology, Public Library of Science, 13 Aug. 2018, https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6107253/. 
+
 Hu, Ben, et al. “Characteristics of SARS-COV-2 and COVID-19.” Nature News, Nature Publishing Group, 6 Oct. 2020, https://www.nature.com/articles/s41579-020-00459-7. 
 
 ## Methods

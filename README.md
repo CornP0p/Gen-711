@@ -18,7 +18,7 @@ The first step I took was to set up the Conda environment to make installing the
 ## Findings
 
 ![aliview.png](https://github.com/CornP0p/Gen-711/blob/main/SourceFiles/AliViewSpike.png) 
-Figure 1. Section of AliView demonstration deletion present in April Sequences
+Figure 1. Section of AliView demonstrating a deletion present in April Sequences
 
 When visualizing the aligned sequences with AliView there were multiple deletions present distinct to the months. There were also nucleotide changes that were within the same month as well as ones that were distinct to the individual months. There were some sections of ambiguous bases as well, and some of the sequences looked entirely identical. This was confirmed during the bootstrapping which noted that some sequences had no differences and would regularly be removed. 
 
